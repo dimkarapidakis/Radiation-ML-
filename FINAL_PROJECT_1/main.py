@@ -1147,6 +1147,46 @@ render_orion(_orion_dose, _orion_src, height=800)
 st.caption("Orion geometry: public NASA / ESA / Lockheed Martin / Airbus figures. Interior layout is schematic and the per-room "
            "shielding factors are team assumptions. Needs internet in the browser (three.js).")
 
+# ---- DEMO: run ALL the algorithms once (python run_all.py nolive, ~1 minute) and show the results in plain words ----
+#      forecast -> shielding -> alert -> health, the 14-day mission with the real solar storm of 11 November 2025
+st.markdown("### ▶ DEMO · ALL THE ALGORITHMS")
+st.caption("Forecast → shielding → alert → health: the 14-day mission with the real solar storm of 11 November 2025 "
+           "and the astronauts of the database. About 1 minute.")
+if st.button("▶ RUN THE DEMO (run_all.py nolive)", key="run_all_demo_btn"):
+    import os
+    import subprocess
+    import sys
+    _here = os.path.dirname(os.path.abspath(__file__))
+    with st.spinner("Running all the algorithms (about 1 minute)..."):
+        _run = subprocess.run([sys.executable, os.path.join(_here, "run_all.py"), "nolive"], cwd=_here,
+                              capture_output=True, text=True, env=dict(os.environ, PYTHONWARNINGS="ignore"))
+    if _run.returncode == 0 and "FAILED" not in _run.stdout:
+        st.success("Done: every step OK.")
+    else:
+        st.error("A step failed: see what run_all.py printed.")
+    with st.expander("What run_all.py printed"):
+        st.code(_run.stdout + _run.stderr)
+    _box = {"green": st.success, "yellow": st.warning, "red": st.error}
+    for _title, _path in {"🚨 Alert": ("warning", "alert_readable.json"),
+                          "🧭 Where to go": ("shielding", "shielding_readable.json"),
+                          "❤️ Health": ("health", "health_readable.json"),
+                          "🎬 The 14-day mission": ("warning", "crew_routes_readable.json")}.items():
+        _file = os.path.join(_here, _path[0], "data", _path[1])
+        if not os.path.exists(_file):
+            continue
+        _r = json.load(open(_file, encoding="utf-8"))
+        st.markdown(f"#### {_title}")
+        _box[_r["level"]](f"**{_r['headline']}**  \n{_r['what_to_do']}")
+        for _line in _r["why"]:
+            st.markdown("- " + _line)
+        for _name, _c in _r.get("crew", {}).items():
+            if "message" in _c:                              # alert, where to go, mission
+                st.markdown(f"**{_name}**: {_c['message']}")
+            else:                                            # health card
+                st.markdown(f"**{_name}**: {_c['status']}")
+                for _b in ([_c["radiation"]] if _c["radiation"] else []) + _c["body"] + ([_c["early_sign"]] if _c["early_sign"] else []):
+                    st.caption(_b)
+
 # ---- category MENTAL HEALTH & ROCKET (sidebar button) ----
 if st.session_state.show_rocket:
     render_mind_panel(REAL_ASTRO["name"] if REAL_ASTRO else astronaut,
