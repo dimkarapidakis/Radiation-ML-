@@ -12,3 +12,4 @@ requests
 # only for forecast/01_download_goesr.py
 xarray
 netCDF4
+plotly
