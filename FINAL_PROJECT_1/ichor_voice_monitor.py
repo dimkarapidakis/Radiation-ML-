@@ -135,7 +135,19 @@ h3{margin:0 0 8px;font-family:Orbitron,sans-serif;font-size:.8rem;letter-spacing
 .note{color:#4bb87a;font-size:.68rem;line-height:1.35;margin-top:6px}
 input[type=range]{accent-color:#00ff66;width:120px}
 #msg{color:#ff9aa8;font-size:.76rem;min-height:1em;margin-top:6px}
-</style></head><body><div id="w">
+/* pop-up: asks for the microphone when the mental-health category opens */
+#ask{position:fixed;inset:0;background:rgba(1,8,4,.88);display:flex;align-items:flex-start;justify-content:center;padding-top:60px;z-index:10}
+#ask .box{max-width:460px;background:#04140b;border:1px solid #00ff66;box-shadow:0 0 24px rgba(0,255,102,.35);padding:18px 20px;text-align:center}
+#ask p{font-size:.82rem;line-height:1.45;color:#d4ffe2;margin:8px 0 14px}
+#ask.hide{display:none}
+</style></head><body>
+<div id="ask"><div class="box">
+ <h3>🎙 ICHOR WOULD LIKE TO HEAR YOU</h3>
+ <p id="askTxt">Your browser is asking for the microphone: press <b>Allow</b>, then just talk.
+ ICHOR listens to your voice and breathing, live, in this browser. Nothing is recorded or uploaded.</p>
+ <div class="row" style="justify-content:center"><div class="btn on" id="askYes">START LISTENING</div><div class="btn" id="askNo">NOT NOW</div></div>
+</div></div>
+<div id="w">
 <div class="hud">
  <h3>VOICE &amp; BREATHING MONITOR <span style="color:#4bb87a;font-weight:400;letter-spacing:.04em">· local only, nothing is recorded</span></h3>
  <div class="row">
@@ -357,6 +369,27 @@ function stopMic(){
   $('state').textContent='NOT RUNNING';logEv('microphone stopped');
 }
 $('bMic').addEventListener('click',function(){if(timer)stopMic();else startMic();});
+/* the pop-up, when the mental-health category opens:
+   1. the browser asks at once for the microphone (its own permission question)
+   2. allowed: ICHOR starts listening by itself if the browser lets the audio start without a click,
+      otherwise one tap on START LISTENING starts it */
+$('askYes').addEventListener('click',function(){$('ask').classList.add('hide');if(!timer)startMic();});
+$('askNo').addEventListener('click',function(){$('ask').classList.add('hide');msg('Microphone off. Press START MICROPHONE when you want to talk.');});
+if(navigator.mediaDevices&&navigator.mediaDevices.getUserMedia){
+  navigator.mediaDevices.getUserMedia({audio:true}).then(function(s){
+    s.getTracks().forEach(function(t){t.stop();});                       // only the permission: startMic opens its own stream
+    $('askTxt').textContent='Microphone allowed. Press START LISTENING and just talk.';
+    var c=ensureCtx();
+    Promise.race([c.resume(),new Promise(function(r){setTimeout(r,400);})]).then(function(){
+      if(c.state==='running'&&!timer){$('ask').classList.add('hide');startMic();}
+    });
+  }).catch(function(e){
+    $('ask').classList.add('hide');
+    msg('Microphone not allowed ('+(e&&e.name?e.name:e)+'). Allow it from the lock icon next to the address bar, then press START MICROPHONE.');
+  });
+}else{
+  $('ask').classList.add('hide');msg('This browser has no microphone access here (it needs https:// or http://localhost).');
+}
 $('bCal').addEventListener('click',function(){
   if(!timer){msg('Start the microphone first, then speak normally for 20 s while breathing calmly.');return;}
   calF0=[];calDb=[];calibrating=Date.now()+20000;$('bCal').classList.add('on');msg('Speak normally for 20 seconds (read a few sentences aloud).');

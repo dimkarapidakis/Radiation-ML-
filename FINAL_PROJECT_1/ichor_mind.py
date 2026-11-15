@@ -423,7 +423,7 @@ def render_mind_panel(subject: str, real_db_path: str | None = None, astronaut_i
     st.caption(f"Crew member: {subject} · own data in database/ichor_mind.db · screening support, not a diagnosis.")
     conn = mconn()
     today = dt.date.today().isoformat()
-    t1, t2, t3 = st.tabs(["📝 Daily check-in", "🎙 Voice & breathing", "📈 Prognosis & trends"])
+    t2, t1, t3 = st.tabs(["🎙 Voice & breathing", "📝 Daily check-in", "📈 Prognosis & trends"])   # voice first: the microphone pop-up shows at once
 
     # ---------------------------------------------------------------- check-in
     with t1:
