@@ -1,4 +1,4 @@
-# ICHOR · HEALTH MONITORING SYSTEM FOR ASTRONAUT
+# ICHOR · HEALTH MONITORING SYSTEM FOR ASTRONAUTS
 
 **NASA Space Apps Challenge 2026.** Onboard health monitoring for astronauts during solar storms.
 
