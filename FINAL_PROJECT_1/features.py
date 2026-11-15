@@ -4,7 +4,7 @@ import pandas as pd
 FEATURES = ["hours_since_onset", "log_p10_now", "log_p30_now", "log_p50_now", "log_p100_now",
             "rise_per_hour", "hardness", "log_max_so_far", "below_max_so_far", "log_background"]
 
-FLOOR = 1e-3
+FLOOR = 1e-3        
 
 GSEP_QUIET = {"p10": 0.107, "p30": 0.052, "p50": 0.029, "p100": 0.013}
 
@@ -43,4 +43,3 @@ def make_features(flux, onset, now):
         "below_max_so_far": np.log10(since_onset.max() / p10_now),
         "log_background": np.log10(before.median()) if len(before) > 0 else np.nan,
     }
-

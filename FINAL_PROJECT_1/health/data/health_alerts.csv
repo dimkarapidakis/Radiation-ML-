@@ -1,0 +1,8 @@
+astronaut,day,biomarker,value,unit,base_mean,z,priority
+Astronaut 2,13,body_temperature,36.75,°C,36.55,3.4,medical team
+Astronaut 5,10,body_temperature,37.33,°C,36.43,8.9,medical team
+Astronaut 5,11,body_temperature,37.55,°C,36.43,11.1,medical team
+Astronaut 5,14,body_temperature,35.98,°C,36.43,-4.4,medical team
+Astronaut 5,10,heart_rate,77.62,bpm,60.27,9.1,medical team
+Astronaut 5,11,heart_rate,72.71,bpm,60.27,6.6,medical team
+Astronaut 5,11,systolic_bp,119.83,mmHg,110.17,4.5,medical team

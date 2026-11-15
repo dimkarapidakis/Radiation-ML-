@@ -1,0 +1,68 @@
+{
+  "simulated": true,
+  "days": 14,
+  "crew": {
+    "Astronaut 1": {
+      "status": "normal",
+      "alerts": []
+    },
+    "Astronaut 2": {
+      "status": "ALERT",
+      "alerts": [
+        {
+          "day": 13,
+          "biomarker": "body_temperature",
+          "z": 3.4
+        }
+      ]
+    },
+    "Astronaut 3": {
+      "status": "normal",
+      "alerts": []
+    },
+    "Astronaut 4": {
+      "status": "normal",
+      "alerts": []
+    },
+    "Astronaut 5": {
+      "status": "ALERT",
+      "alerts": [
+        {
+          "day": 10,
+          "biomarker": "body_temperature",
+          "z": 8.9
+        },
+        {
+          "day": 11,
+          "biomarker": "body_temperature",
+          "z": 11.1
+        },
+        {
+          "day": 14,
+          "biomarker": "body_temperature",
+          "z": -4.4
+        },
+        {
+          "day": 10,
+          "biomarker": "heart_rate",
+          "z": 9.1
+        },
+        {
+          "day": 11,
+          "biomarker": "heart_rate",
+          "z": 6.6
+        },
+        {
+          "day": 11,
+          "biomarker": "systolic_bp",
+          "z": 4.5
+        }
+      ]
+    },
+    "Astronaut 6": {
+      "status": "normal",
+      "alerts": []
+    }
+  },
+  "radiation_bfo_pct_limit": 5.3
+}

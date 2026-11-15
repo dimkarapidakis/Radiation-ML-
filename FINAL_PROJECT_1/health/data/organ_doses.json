@@ -1,0 +1,91 @@
+{
+  "storm": "October 1989",
+  "crew": [
+    "CDR",
+    "PLT",
+    "MS1",
+    "MS2",
+    "MS3",
+    "MS4"
+  ],
+  "days": 14,
+  "worst_cabin_room": "cockpit",
+  "assumptions": {
+    "gcr_msv_per_day": 0.5,
+    "shelter_left": 0.05
+  },
+  "organs": [
+    {
+      "organ": "Skin",
+      "depth_g_cm2": 0.1,
+      "nasa_30day_limit": 1500.0,
+      "gcr_14_days": 7.0,
+      "storm_cabin": 212.6,
+      "storm_shelter": 10.6,
+      "total_cabin": 219.6,
+      "total_shelter": 17.6,
+      "pct_limit_cabin": 14.6,
+      "pct_limit_shelter": 1.2
+    },
+    {
+      "organ": "Lens of the eye",
+      "depth_g_cm2": 0.3,
+      "nasa_30day_limit": 1000.0,
+      "gcr_14_days": 7.0,
+      "storm_cabin": 200.8,
+      "storm_shelter": 10.0,
+      "total_cabin": 207.8,
+      "total_shelter": 17.0,
+      "pct_limit_cabin": 20.8,
+      "pct_limit_shelter": 1.7
+    },
+    {
+      "organ": "Blood-forming organs",
+      "depth_g_cm2": 5.0,
+      "nasa_30day_limit": 250.0,
+      "gcr_14_days": 7.0,
+      "storm_cabin": 126.2,
+      "storm_shelter": 6.3,
+      "total_cabin": 133.2,
+      "total_shelter": 13.3,
+      "pct_limit_cabin": 53.3,
+      "pct_limit_shelter": 5.3
+    },
+    {
+      "organ": "Heart (circulatory)",
+      "depth_g_cm2": 6.0,
+      "nasa_30day_limit": 250.0,
+      "gcr_14_days": 7.0,
+      "storm_cabin": 108.4,
+      "storm_shelter": 5.4,
+      "total_cabin": 115.4,
+      "total_shelter": 12.4,
+      "pct_limit_cabin": 46.2,
+      "pct_limit_shelter": 5.0
+    },
+    {
+      "organ": "Brain (CNS)",
+      "depth_g_cm2": 5.0,
+      "nasa_30day_limit": 500.0,
+      "gcr_14_days": 7.0,
+      "storm_cabin": 126.2,
+      "storm_shelter": 6.3,
+      "total_cabin": 133.2,
+      "total_shelter": 13.3,
+      "pct_limit_cabin": 26.6,
+      "pct_limit_shelter": 2.7
+    },
+    {
+      "organ": "Stomach",
+      "depth_g_cm2": 7.0,
+      "nasa_30day_limit": NaN,
+      "gcr_14_days": 7.0,
+      "storm_cabin": 100.0,
+      "storm_shelter": 5.0,
+      "total_cabin": 107.0,
+      "total_shelter": 12.0,
+      "pct_limit_cabin": NaN,
+      "pct_limit_shelter": NaN
+    }
+  ]
+}

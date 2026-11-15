@@ -1,16 +1,26 @@
-# The model (forecast/models/forecast_models.pkl) opens only with the SAME scikit-learn
-# version it was trained with. Install with:  pip install -r requirements.txt
+# Needs Python 3.11 or newer (pandas 3 and scikit-learn 1.9 do not install on 3.10). Streamlit Cloud: choose 3.12.
+# The model (models/forecast_models.pkl) opens only with the SAME scikit-learn version it was trained with.
+# Install with:  pip install -r requirements.txt
 streamlit>=1.40
 scikit-learn==1.9.1
 certifi
+truststore
 pandas>=3.0
 pyarrow
 numpy>=2.0
+scipy
 matplotlib
 seaborn
 requests
+plotly
+
+# shielding, warning, health, gis (python run_all.py)
+geopandas
+pyogrio
+shapely
+networkx
+psutil
 
 # only for forecast/01_download_goesr.py
 xarray
 netCDF4
-plotly

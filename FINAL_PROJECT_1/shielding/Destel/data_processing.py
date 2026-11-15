@@ -1,17 +1,11 @@
-from pathlib import Path
+import os
 
 import pandas as pd
+import matplotlib.pyplot as plt
 
+# project folder = one level above this script, so it runs from anywhere
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-DATA_DIR = Path(__file__).resolve().parent
-FULL_DATA = DATA_DIR / "iss_dostel_2017-09.csv"
-SAMPLE_DATA = DATA_DIR / "dostel_2017-09-01_20.csv"
-DATA_FILE = FULL_DATA if FULL_DATA.exists() else SAMPLE_DATA
+df = pd.read_csv(os.path.join(ROOT, "iss_dostel_2017-09.csv"))
 
-if not DATA_FILE.exists():
-    raise FileNotFoundError(
-        f"No DOSTEL CSV found in {DATA_DIR}. Run dostel.py to download the full dataset."
-    )
-
-df = pd.read_csv(DATA_FILE)
 print(df.columns)

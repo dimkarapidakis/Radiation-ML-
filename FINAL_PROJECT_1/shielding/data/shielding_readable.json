@@ -1,0 +1,49 @@
+{
+  "module": "shielding",
+  "updated": "2026-01-19 01:15:00",
+  "crew": {
+    "Astronaut 1": {
+      "level": "yellow",
+      "message": "Stay in the Cockpit. Worst case here: 0.1 mSv (0.1% of your monthly allowance), not worth moving."
+    },
+    "Astronaut 2": {
+      "level": "green",
+      "message": "Normal work (you are in the Storm shelter)."
+    },
+    "Astronaut 3": {
+      "level": "yellow",
+      "message": "Stay in the Crew seats. Worst case here: 0.1 mSv (0.1% of your monthly allowance), not worth moving."
+    },
+    "Astronaut 4": {
+      "level": "yellow",
+      "message": "Stay in the Cockpit. Worst case here: 0.1 mSv (0.1% of your monthly allowance), not worth moving."
+    },
+    "Astronaut 5": {
+      "level": "yellow",
+      "message": "Stay in the Crew seats. Worst case here: 0.1 mSv (0.1% of your monthly allowance), not worth moving."
+    },
+    "Astronaut 6": {
+      "level": "yellow",
+      "message": "Stay in the Exercise area. Worst case here: 0.1 mSv (0.1% of your monthly allowance), not worth moving."
+    }
+  },
+  "rooms": {
+    "Storm shelter": "safe",
+    "Lower equipment bay": "safe: up to 0.1 mSv in this storm",
+    "Sleeping area": "safe: up to 0.1 mSv in this storm",
+    "Galley": "safe: up to 0.1 mSv in this storm",
+    "Hygiene bay": "safe: up to 0.1 mSv in this storm",
+    "Crew seats": "safe: up to 0.1 mSv in this storm",
+    "Exercise area": "safe: up to 0.1 mSv in this storm",
+    "Cockpit": "safe: up to 0.1 mSv in this storm"
+  },
+  "level": "yellow",
+  "headline": "Solar storm: keep working, the walls protect you",
+  "what_to_do": "No need to move. We check again every 5 minutes.",
+  "why": [
+    "A solar storm started 2.8 hours ago. It is expected to reach S2 (moderate).",
+    "Chance that the worst is already over: 17%.",
+    "In the worst case, the most exposed place would get 0 mSv during this storm: 0% of your monthly allowance, like 0 years of natural radiation on Earth.",
+    "The storm shelter would get 0.0 mSv."
+  ]
+}

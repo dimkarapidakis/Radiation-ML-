@@ -1,0 +1,9 @@
+room,dose_msv,pct_limit,level
+shelter,0.0056,0.0022,SAFE
+leb,0.0748,0.0299,SAFE
+sleep,0.0788,0.0315,SAFE
+galley,0.1327,0.0531,SAFE
+hygiene,0.1375,0.055,SAFE
+seats,0.1375,0.055,SAFE
+exercise,0.1406,0.0562,SAFE
+cockpit,0.1449,0.058,SAFE

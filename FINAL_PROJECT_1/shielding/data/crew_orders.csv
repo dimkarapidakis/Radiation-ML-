@@ -1,0 +1,7 @@
+time,astronaut,now_in,floor,x,y,go_to,route,minutes,dose_if_stays_msv,dose_if_goes_msv,saves_msv
+2026-01-19 01:15:00,Astronaut 1,cockpit,3,-1.034,1.283,cockpit,,0,0.14,0.14,0
+2026-01-19 01:15:00,Astronaut 2,shelter,3,0.53,0.2,shelter,,0,0.01,0.01,0
+2026-01-19 01:15:00,Astronaut 3,seats,3,-0.203,-0.568,seats,,0,0.14,0.14,0
+2026-01-19 01:15:00,Astronaut 4,cockpit,3,0.097,1.29,cockpit,,0,0.14,0.14,0
+2026-01-19 01:15:00,Astronaut 5,seats,3,0.171,0.45,seats,,0,0.14,0.14,0
+2026-01-19 01:15:00,Astronaut 6,exercise,3,1.448,0.296,exercise,,0,0.14,0.14,0

@@ -7,12 +7,23 @@ venv/
 # Local settings and macOS files
 .env
 .DS_Store
+.vscode/
 
-# Downloaded GOES data
-/FINAL PROJECT 1/data/raw/goesr/*.nc
+# The old files that were replaced (kept only on this computer)
+/_old_replaced/
+
+# Downloaded GOES data (large, python FINAL_PROJECT_1/forecast/01_download_goesr.py gets them again)
+/FINAL_PROJECT_1/data/raw/goesr/
+/FINAL_PROJECT_1/forecast/data/raw/goesr/
+/FINAL_PROJECT_1/forecast/data/processed/GOESR/goesr_goes16_*.csv
+/FINAL_PROJECT_1/forecast/data/processed/forecast_output.csv
+/FINAL_PROJECT_1/forecast/Figures/forecasts/
 
 # Runtime output
-/FINAL PROJECT 1/live/data/live_log.csv
+/FINAL_PROJECT_1/live/data/
+/FINAL_PROJECT_1/logs/
+/FINAL_PROJECT_1/shielding/data/crew_live*.csv
+/FINAL_PROJECT_1/shielding/Destel/iss_dostel_*.csv
 
 # Backup database
-/FINAL PROJECT 1/database/*.pre-seed-backup-*.sqlite
+/FINAL_PROJECT_1/database/*.pre-seed-backup-*.sqlite

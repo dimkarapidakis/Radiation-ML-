@@ -1,0 +1,139 @@
+{
+  "time": "2025-11-18 23:55:00",
+  "sheltering": false,
+  "safety_room": "shelter",
+  "rooms_dose_rate_msv_h": {
+    "leb": 0.0244,
+    "cockpit": 0.0259,
+    "seats": 0.0252,
+    "galley": 0.0251,
+    "exercise": 0.0256,
+    "hygiene": 0.0249,
+    "shelter": 0.0229,
+    "sleep": 0.0226
+  },
+  "crew": {
+    "Astronaut 1": {
+      "room": "sleep",
+      "floor": 4,
+      "x": -0.188,
+      "y": 0.595,
+      "dose_msv": 9.03,
+      "pct_limit": 3.6
+    },
+    "Astronaut 2": {
+      "room": "sleep",
+      "floor": 4,
+      "x": -0.437,
+      "y": -0.131,
+      "dose_msv": 9.03,
+      "pct_limit": 3.6
+    },
+    "Astronaut 3": {
+      "room": "sleep",
+      "floor": 4,
+      "x": 0.025,
+      "y": -0.429,
+      "dose_msv": 9.03,
+      "pct_limit": 3.6
+    },
+    "Astronaut 4": {
+      "room": "sleep",
+      "floor": 4,
+      "x": -0.574,
+      "y": 0.809,
+      "dose_msv": 9.03,
+      "pct_limit": 3.6
+    },
+    "Astronaut 5": {
+      "room": "sleep",
+      "floor": 4,
+      "x": -0.36,
+      "y": 0.192,
+      "dose_msv": 9.05,
+      "pct_limit": 3.6
+    },
+    "Astronaut 6": {
+      "room": "sleep",
+      "floor": 4,
+      "x": -0.954,
+      "y": -0.51,
+      "dose_msv": 9.04,
+      "pct_limit": 3.6
+    }
+  },
+  "last_routes": [
+    {
+      "time": "2025-11-11 10:35:00",
+      "astronaut": "Astronaut 1",
+      "from_room": "exercise",
+      "to_room": "shelter",
+      "from_floor": "3",
+      "to_floor": "3",
+      "route": "exercise -> seats -> shelter",
+      "minutes": "1.0",
+      "dose_on_the_way_msv": "0.0018",
+      "rising_in": "cockpit, seats, exercise, hygiene"
+    },
+    {
+      "time": "2025-11-11 10:35:00",
+      "astronaut": "Astronaut 2",
+      "from_room": "exercise",
+      "to_room": "shelter",
+      "from_floor": "3",
+      "to_floor": "3",
+      "route": "exercise -> seats -> shelter",
+      "minutes": "1.0",
+      "dose_on_the_way_msv": "0.0018",
+      "rising_in": "cockpit, seats, exercise, hygiene"
+    },
+    {
+      "time": "2025-11-11 10:35:00",
+      "astronaut": "Astronaut 3",
+      "from_room": "exercise",
+      "to_room": "shelter",
+      "from_floor": "3",
+      "to_floor": "3",
+      "route": "exercise -> seats -> shelter",
+      "minutes": "1.0",
+      "dose_on_the_way_msv": "0.0018",
+      "rising_in": "cockpit, seats, exercise, hygiene"
+    },
+    {
+      "time": "2025-11-11 10:35:00",
+      "astronaut": "Astronaut 4",
+      "from_room": "galley",
+      "to_room": "shelter",
+      "from_floor": "3",
+      "to_floor": "3",
+      "route": "galley -> hygiene -> shelter",
+      "minutes": "1.0",
+      "dose_on_the_way_msv": "0.0017",
+      "rising_in": "cockpit, seats, exercise, hygiene"
+    },
+    {
+      "time": "2025-11-11 10:35:00",
+      "astronaut": "Astronaut 5",
+      "from_room": "exercise",
+      "to_room": "shelter",
+      "from_floor": "3",
+      "to_floor": "3",
+      "route": "exercise -> seats -> shelter",
+      "minutes": "1.0",
+      "dose_on_the_way_msv": "0.0018",
+      "rising_in": "cockpit, seats, exercise, hygiene"
+    },
+    {
+      "time": "2025-11-11 10:35:00",
+      "astronaut": "Astronaut 6",
+      "from_room": "hygiene",
+      "to_room": "shelter",
+      "from_floor": "3",
+      "to_floor": "3",
+      "route": "hygiene -> shelter",
+      "minutes": "0.5",
+      "dose_on_the_way_msv": "0.0008",
+      "rising_in": "cockpit, seats, exercise, hygiene"
+    }
+  ]
+}
