@@ -1,4 +1,4 @@
-# ICHOR · Dynamic Shielding Map
+# ICHOR · HEALTH MONITORING SYSTEM FOR ASTRONAUT
 
 **NASA Space Apps Challenge 2026.** Onboard health monitoring for astronauts during solar storms.
 
