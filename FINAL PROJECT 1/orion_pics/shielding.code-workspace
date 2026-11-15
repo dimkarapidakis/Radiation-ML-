@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "../shielding"
+		},
+		{
+			"path": "../data"
+		},
+		{
+			"path": "../database"
+		},
+		{
+			"path": "../live"
+		},
+		{
+			"path": "../forecast"
+		},
+		{
+			"path": "../models"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

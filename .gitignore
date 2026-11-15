@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local settings and macOS files
+.env
+.DS_Store
+
+# Downloaded GOES data
+/FINAL PROJECT 1/data/raw/goesr/*.nc
+
+# Runtime output
+/FINAL PROJECT 1/live/data/live_log.csv
+
+# Backup database
+/FINAL PROJECT 1/database/*.pre-seed-backup-*.sqlite
