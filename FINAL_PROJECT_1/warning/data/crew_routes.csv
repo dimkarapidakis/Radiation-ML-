@@ -1,7 +1,7 @@
 time,astronaut,from_room,to_room,from_floor,to_floor,route,minutes,dose_on_the_way_msv,rising_in
-2025-11-11 10:35:00,Astronaut 1,exercise,shelter,3,3,exercise -> seats -> shelter,1.0,0.0018,"cockpit, seats, exercise, hygiene"
-2025-11-11 10:35:00,Astronaut 2,exercise,shelter,3,3,exercise -> seats -> shelter,1.0,0.0018,"cockpit, seats, exercise, hygiene"
-2025-11-11 10:35:00,Astronaut 3,exercise,shelter,3,3,exercise -> seats -> shelter,1.0,0.0018,"cockpit, seats, exercise, hygiene"
-2025-11-11 10:35:00,Astronaut 4,galley,shelter,3,3,galley -> hygiene -> shelter,1.0,0.0017,"cockpit, seats, exercise, hygiene"
-2025-11-11 10:35:00,Astronaut 5,exercise,shelter,3,3,exercise -> seats -> shelter,1.0,0.0018,"cockpit, seats, exercise, hygiene"
-2025-11-11 10:35:00,Astronaut 6,hygiene,shelter,3,3,hygiene -> shelter,0.5,0.0008,"cockpit, seats, exercise, hygiene"
+2025-11-11 10:35:00,Alex Morgan,exercise,shelter,3,3,exercise -> seats -> shelter,1.0,0.0018,"cockpit, seats, exercise, hygiene"
+2025-11-11 10:35:00,Elena Rossi,hygiene,shelter,3,3,hygiene -> shelter,0.5,0.0008,"cockpit, seats, exercise, hygiene"
+2025-11-11 10:35:00,James Wilson,exercise,shelter,3,3,exercise -> seats -> shelter,1.0,0.0018,"cockpit, seats, exercise, hygiene"
+2025-11-11 10:35:00,Lucas Meyer,exercise,shelter,3,3,exercise -> seats -> shelter,1.0,0.0018,"cockpit, seats, exercise, hygiene"
+2025-11-11 10:35:00,Priya Nair,galley,shelter,3,3,galley -> hygiene -> shelter,1.0,0.0017,"cockpit, seats, exercise, hygiene"
+2025-11-11 10:35:00,Sarah Chen,exercise,shelter,3,3,exercise -> seats -> shelter,1.0,0.0018,"cockpit, seats, exercise, hygiene"

@@ -1,14 +1,9 @@
 {
-  "time": "2026-01-19 01:15:00",
-  "status": "STORM",
-  "flux_now_pfu": 42.0,
-  "s_measured": 1,
+  "time": "2026-11-15 10:55:00",
+  "status": "ALL CLEAR",
+  "flux_now_pfu": 0.2,
+  "s_measured": 0,
   "forecast_exceeded": false,
-  "forecast_peak_pfu": 170.9,
-  "worst_case_peak_pfu": 1281.7,
-  "s_worst_case": 3,
-  "prob_peak_passed": 0.17,
-  "prob_peak_within_6h": null,
   "mission": {
     "crew": [
       "CDR",
@@ -20,26 +15,17 @@
     ],
     "days": 14,
     "gcr_msv": 7.0,
-    "storm_worst_case_cabin_msv": 0.1,
+    "storm_worst_case_cabin_msv": 0.0,
     "storm_in_shelter_msv": 0.0,
-    "total_if_they_stay_in_the_cabin_msv": 7.1,
+    "total_if_they_stay_in_the_cabin_msv": 7.0,
     "total_if_they_go_to_the_shelter_msv": 7.0,
-    "pct_limit_cabin": 2.9,
+    "pct_limit_cabin": 2.8,
     "pct_limit_shelter": 2.8
   },
-  "level": "PREPARE SHELTER",
-  "message": "Get the storm shelter ready now. Be ready to go in.",
-  "reasons": [
-    "worst-case forecast reaches S3: get the shelter ready (~1 hour)"
-  ],
-  "storm_worst_case_pct_limit": 0.1,
-  "rooms_worst_case_msv": {
-    "sleep": 0.1,
-    "galley": 0.1,
-    "hygiene": 0.1,
-    "seats": 0.1,
-    "exercise": 0.1,
-    "cockpit": 0.1
-  },
-  "timing": "peak time not reliable yet | peak already passed: 17%"
+  "level": "ALL CLEAR",
+  "message": "No storm. Normal work.",
+  "reasons": [],
+  "storm_worst_case_pct_limit": 0.0,
+  "rooms_worst_case_msv": {},
+  "timing": "no forecast yet (first 30 minutes)"
 }

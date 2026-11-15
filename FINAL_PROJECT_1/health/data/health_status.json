@@ -1,67 +1,105 @@
 {
-  "simulated": true,
-  "days": 14,
+  "simulated": false,
+  "days": 5,
   "crew": {
-    "Astronaut 1": {
-      "status": "normal",
-      "alerts": []
-    },
-    "Astronaut 2": {
+    "Alex Morgan": {
       "status": "ALERT",
       "alerts": [
         {
-          "day": 13,
-          "biomarker": "body_temperature",
-          "z": 3.4
+          "day": 3,
+          "biomarker": "heart_rate",
+          "z": 4.6
+        },
+        {
+          "day": 3,
+          "biomarker": "lymphocyte_count",
+          "z": -7.5
+        },
+        {
+          "day": 3,
+          "biomarker": "wbc_count",
+          "z": -6.2
         }
       ]
     },
-    "Astronaut 3": {
-      "status": "normal",
-      "alerts": []
-    },
-    "Astronaut 4": {
-      "status": "normal",
-      "alerts": []
-    },
-    "Astronaut 5": {
+    "Sarah Chen": {
       "status": "ALERT",
       "alerts": [
         {
-          "day": 10,
-          "biomarker": "body_temperature",
-          "z": 8.9
-        },
-        {
-          "day": 11,
-          "biomarker": "body_temperature",
-          "z": 11.1
-        },
-        {
-          "day": 14,
-          "biomarker": "body_temperature",
-          "z": -4.4
-        },
-        {
-          "day": 10,
+          "day": 3,
           "biomarker": "heart_rate",
-          "z": 9.1
+          "z": 4.2
         },
         {
-          "day": 11,
-          "biomarker": "heart_rate",
-          "z": 6.6
-        },
-        {
-          "day": 11,
-          "biomarker": "systolic_bp",
-          "z": 4.5
+          "day": 3,
+          "biomarker": "lymphocyte_count",
+          "z": -7.9
         }
       ]
     },
-    "Astronaut 6": {
+    "James Wilson": {
+      "status": "ALERT",
+      "alerts": [
+        {
+          "day": 3,
+          "biomarker": "sleep_duration",
+          "z": -3.5
+        }
+      ]
+    },
+    "Priya Nair": {
       "status": "normal",
       "alerts": []
+    },
+    "Lucas Meyer": {
+      "status": "ALERT",
+      "alerts": [
+        {
+          "day": 3,
+          "biomarker": "heart_rate",
+          "z": 6.1
+        },
+        {
+          "day": 3,
+          "biomarker": "lymphocyte_count",
+          "z": -5.0
+        },
+        {
+          "day": 3,
+          "biomarker": "sleep_duration",
+          "z": -9.2
+        },
+        {
+          "day": 4,
+          "biomarker": "sleep_duration",
+          "z": -4.2
+        },
+        {
+          "day": 3,
+          "biomarker": "wbc_count",
+          "z": -4.5
+        }
+      ]
+    },
+    "Elena Rossi": {
+      "status": "ALERT",
+      "alerts": [
+        {
+          "day": 3,
+          "biomarker": "heart_rate",
+          "z": 3.8
+        },
+        {
+          "day": 3,
+          "biomarker": "lymphocyte_count",
+          "z": -8.0
+        },
+        {
+          "day": 3,
+          "biomarker": "wbc_count",
+          "z": -6.2
+        }
+      ]
     }
   },
   "radiation_bfo_pct_limit": 5.3

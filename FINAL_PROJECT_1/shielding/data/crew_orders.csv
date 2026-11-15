@@ -1,7 +1,7 @@
 time,astronaut,now_in,floor,x,y,go_to,route,minutes,dose_if_stays_msv,dose_if_goes_msv,saves_msv
-2026-01-19 01:15:00,Astronaut 1,cockpit,3,-1.034,1.283,cockpit,,0,0.14,0.14,0
-2026-01-19 01:15:00,Astronaut 2,shelter,3,0.53,0.2,shelter,,0,0.01,0.01,0
-2026-01-19 01:15:00,Astronaut 3,seats,3,-0.203,-0.568,seats,,0,0.14,0.14,0
-2026-01-19 01:15:00,Astronaut 4,cockpit,3,0.097,1.29,cockpit,,0,0.14,0.14,0
-2026-01-19 01:15:00,Astronaut 5,seats,3,0.171,0.45,seats,,0,0.14,0.14,0
-2026-01-19 01:15:00,Astronaut 6,exercise,3,1.448,0.296,exercise,,0,0.14,0.14,0
+2026-11-15 10:55:00,Alex Morgan,seats,3,0.087,-0.551,seats,,0,0.0,0.0,0
+2026-11-15 10:55:00,Sarah Chen,seats,3,-0.203,-0.568,seats,,0,0.0,0.0,0
+2026-11-15 10:55:00,James Wilson,seats,3,-0.305,0.682,seats,,0,0.0,0.0,0
+2026-11-15 10:55:00,Priya Nair,galley,3,1.451,-0.707,galley,,0,0.0,0.0,0
+2026-11-15 10:55:00,Lucas Meyer,sleep,4,0.437,0.22,sleep,,0,0.0,0.0,0
+2026-11-15 10:55:00,Elena Rossi,sleep,4,0.604,0.72,sleep,,0,0.0,0.0,0

@@ -1,14 +1,11 @@
 {
   "module": "alert",
-  "updated": "2026-01-19 01:15:00",
-  "level": "yellow",
-  "headline": "Get the storm shelter ready",
-  "what_to_do": "Build the shelter now (it takes about 1 hour), so it is ready if the storm grows.",
+  "updated": "2026-11-15 10:55:00",
+  "level": "green",
+  "headline": "All clear: the Sun is quiet",
+  "what_to_do": "Normal work.",
   "why": [
-    "Protons outside the spacecraft now: S1 (minor).",
-    "Forecast: the storm will reach S3 (strong) in the worst case (95% of storms are smaller than this).",
-    "Worst case without the shelter: 0 mSv, 0% of your monthly allowance, like 0 years of natural radiation on Earth. In the shelter: 0.0 mSv.",
-    "Chance that the worst is already over: 17%.",
+    "Protons outside the spacecraft now: below storm level.",
     "Your mission (14 days): cosmic rays alone give about 7 mSv (3% of the monthly allowance)."
   ]
 }

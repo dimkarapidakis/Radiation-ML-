@@ -2,29 +2,29 @@
   "module": "crew_routes",
   "updated": "2025-11-18 23:55:00",
   "crew": {
-    "Astronaut 1": {
+    "Alex Morgan": {
       "level": "green",
       "message": "When the warning came you were in the Exercise area: you went Exercise area -> Crew seats -> Storm shelter (60 seconds). Your dose: 9 mSv; without the warning it would be 20 mSv. You saved 11 mSv."
     },
-    "Astronaut 2": {
+    "Elena Rossi": {
+      "level": "green",
+      "message": "When the warning came you were in the Hygiene bay: you went Hygiene bay -> Storm shelter (30 seconds). Your dose: 9 mSv; without the warning it would be 20 mSv. You saved 11 mSv."
+    },
+    "James Wilson": {
       "level": "green",
       "message": "When the warning came you were in the Exercise area: you went Exercise area -> Crew seats -> Storm shelter (60 seconds). Your dose: 9 mSv; without the warning it would be 21 mSv. You saved 12 mSv."
     },
-    "Astronaut 3": {
+    "Lucas Meyer": {
       "level": "green",
-      "message": "When the warning came you were in the Exercise area: you went Exercise area -> Crew seats -> Storm shelter (60 seconds). Your dose: 9 mSv; without the warning it would be 21 mSv. You saved 12 mSv."
+      "message": "When the warning came you were in the Exercise area: you went Exercise area -> Crew seats -> Storm shelter (60 seconds). Your dose: 9 mSv; without the warning it would be 20 mSv. You saved 11 mSv."
     },
-    "Astronaut 4": {
+    "Priya Nair": {
       "level": "green",
       "message": "When the warning came you were in the Galley: you went Galley -> Hygiene bay -> Storm shelter (60 seconds). Your dose: 9 mSv; without the warning it would be 20 mSv. You saved 11 mSv."
     },
-    "Astronaut 5": {
+    "Sarah Chen": {
       "level": "green",
-      "message": "When the warning came you were in the Exercise area: you went Exercise area -> Crew seats -> Storm shelter (60 seconds). Your dose: 9 mSv; without the warning it would be 20 mSv. You saved 11 mSv."
-    },
-    "Astronaut 6": {
-      "level": "green",
-      "message": "When the warning came you were in the Hygiene bay: you went Hygiene bay -> Storm shelter (30 seconds). Your dose: 9 mSv; without the warning it would be 20 mSv. You saved 11 mSv."
+      "message": "When the warning came you were in the Exercise area: you went Exercise area -> Crew seats -> Storm shelter (60 seconds). Your dose: 9 mSv; without the warning it would be 21 mSv. You saved 12 mSv."
     }
   },
   "level": "green",

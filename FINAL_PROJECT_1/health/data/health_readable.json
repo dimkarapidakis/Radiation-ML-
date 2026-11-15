@@ -1,62 +1,74 @@
 {
   "module": "health",
   "crew": {
-    "Astronaut 1": {
-      "level": "green",
-      "status": "Healthy",
-      "radiation": "9 mSv in 14 days, like 4 years on Earth. Bone marrow (the organ that matters most): 4% of the monthly allowance. Skin and eyes: 1% and 1% of their allowances. The storm shelter saved you 11 mSv.",
-      "body": [],
-      "early_sign": ""
-    },
-    "Astronaut 2": {
-      "level": "yellow",
-      "status": "See the medical officer",
-      "radiation": "9 mSv in 14 days, like 4 years on Earth. Bone marrow (the organ that matters most): 4% of the monthly allowance. Skin and eyes: 1% and 1% of their allowances. The storm shelter saved you 12 mSv.",
-      "body": [
-        "Body temperature clearly higher than your normal (day 13: 36.8 \u00b0C, your normal 36.5 \u00b0C)."
-      ],
-      "early_sign": ""
-    },
-    "Astronaut 3": {
-      "level": "yellow",
-      "status": "See the medical officer",
-      "radiation": "9 mSv in 14 days, like 4 years on Earth. Bone marrow (the organ that matters most): 4% of the monthly allowance. Skin and eyes: 1% and 1% of their allowances. The storm shelter saved you 12 mSv.",
-      "body": [],
-      "early_sign": "Since day 5: several small changes at the same time (body temperature, sleep, resting heart rate). Often the first sign of an infection or of exhaustion."
-    },
-    "Astronaut 4": {
-      "level": "green",
-      "status": "Healthy",
-      "radiation": "9 mSv in 14 days, like 4 years on Earth. Bone marrow (the organ that matters most): 4% of the monthly allowance. Skin and eyes: 1% and 1% of their allowances. The storm shelter saved you 11 mSv.",
-      "body": [],
-      "early_sign": ""
-    },
-    "Astronaut 5": {
+    "Alex Morgan": {
       "level": "yellow",
       "status": "See the medical officer",
       "radiation": "9 mSv in 14 days, like 4 years on Earth. Bone marrow (the organ that matters most): 4% of the monthly allowance. Skin and eyes: 1% and 1% of their allowances. The storm shelter saved you 11 mSv.",
       "body": [
-        "Body temperature far higher than your normal (day 11: 37.5 \u00b0C, your normal 36.4 \u00b0C).",
-        "Resting heart rate far higher than your normal (day 10: 77.6 bpm, your normal 60.3 bpm).",
-        "Blood pressure (upper) clearly higher than your normal (day 11: 119.8 mmHg, your normal 110.2 mmHg)."
+        "Lymphocytes (blood test) far lower than your normal (day 3: 1.6 10^9/L, your normal 1.9 10^9/L).",
+        "White blood cells (blood test) far lower than your normal (day 3: 5.7 10^9/L, your normal 6.1 10^9/L).",
+        "Resting heart rate clearly higher than your normal (day 3: 77.5 bpm, your normal 71.2 bpm)."
       ],
-      "early_sign": "Since day 9: several small changes at the same time (resting heart rate, body temperature, sleep). Often the first sign of an infection or of exhaustion."
+      "early_sign": ""
     },
-    "Astronaut 6": {
+    "Sarah Chen": {
+      "level": "yellow",
+      "status": "See the medical officer",
+      "radiation": "9 mSv in 14 days, like 4 years on Earth. Bone marrow (the organ that matters most): 4% of the monthly allowance. Skin and eyes: 1% and 1% of their allowances. The storm shelter saved you 12 mSv.",
+      "body": [
+        "Lymphocytes (blood test) far lower than your normal (day 3: 1.7 10^9/L, your normal 2.1 10^9/L).",
+        "Resting heart rate clearly higher than your normal (day 3: 87.5 bpm, your normal 79.6 bpm)."
+      ],
+      "early_sign": "Since day 2: several small changes at the same time (resting heart rate, sleep, blood pressure (lower)). Often the first sign of an infection or of exhaustion."
+    },
+    "James Wilson": {
+      "level": "yellow",
+      "status": "See the medical officer",
+      "radiation": "9 mSv in 14 days, like 4 years on Earth. Bone marrow (the organ that matters most): 4% of the monthly allowance. Skin and eyes: 1% and 1% of their allowances. The storm shelter saved you 12 mSv.",
+      "body": [
+        "Sleep clearly lower than your normal (day 3: 6.6 hours, your normal 7.6 hours)."
+      ],
+      "early_sign": ""
+    },
+    "Priya Nair": {
       "level": "green",
       "status": "Healthy",
       "radiation": "9 mSv in 14 days, like 4 years on Earth. Bone marrow (the organ that matters most): 4% of the monthly allowance. Skin and eyes: 1% and 1% of their allowances. The storm shelter saved you 11 mSv.",
       "body": [],
       "early_sign": ""
+    },
+    "Lucas Meyer": {
+      "level": "yellow",
+      "status": "See the medical officer",
+      "radiation": "9 mSv in 14 days, like 4 years on Earth. Bone marrow (the organ that matters most): 4% of the monthly allowance. Skin and eyes: 1% and 1% of their allowances. The storm shelter saved you 11 mSv.",
+      "body": [
+        "Sleep far lower than your normal (day 3: 4.7 hours, your normal 6.9 hours).",
+        "Resting heart rate far higher than your normal (day 3: 82.5 bpm, your normal 75.9 bpm).",
+        "Lymphocytes (blood test) far lower than your normal (day 3: 1.4 10^9/L, your normal 1.8 10^9/L).",
+        "White blood cells (blood test) clearly lower than your normal (day 3: 5.0 10^9/L, your normal 5.5 10^9/L)."
+      ],
+      "early_sign": "Since day 2: several small changes at the same time (resting heart rate, sleep, blood pressure (lower)). Often the first sign of an infection or of exhaustion."
+    },
+    "Elena Rossi": {
+      "level": "yellow",
+      "status": "See the medical officer",
+      "radiation": "9 mSv in 14 days, like 4 years on Earth. Bone marrow (the organ that matters most): 4% of the monthly allowance. Skin and eyes: 1% and 1% of their allowances. The storm shelter saved you 11 mSv.",
+      "body": [
+        "Lymphocytes (blood test) far lower than your normal (day 3: 1.6 10^9/L, your normal 1.9 10^9/L).",
+        "White blood cells (blood test) far lower than your normal (day 3: 5.8 10^9/L, your normal 6.1 10^9/L).",
+        "Resting heart rate clearly higher than your normal (day 3: 74.0 bpm, your normal 68.2 bpm)."
+      ],
+      "early_sign": "Since day 2: several small changes at the same time (resting heart rate, body temperature, blood pressure (upper)). Often the first sign of an infection or of exhaustion."
     }
   },
   "level": "yellow",
-  "headline": "3 of 6 astronauts healthy. Astronaut 2 and Astronaut 3 and Astronaut 5: see the medical officer",
+  "headline": "1 of 6 astronauts healthy. Alex Morgan and Sarah Chen and James Wilson and Lucas Meyer and Elena Rossi: see the medical officer",
   "what_to_do": "The medical officer checks them today.",
   "why": [
     "Every value is compared with the astronaut's OWN normal values from before the flight.",
     "Radiation does not show in these measurements at mission doses: it is watched with the dosimeters.",
-    "Some values are SIMULATED, until the database has enough days for every astronaut."
+    "The values come from the team's database: DEMO data, the health responses are made bigger on purpose to show the detection."
   ],
-  "simulated_biomarkers": true
+  "simulated_biomarkers": false
 }

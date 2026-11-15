@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-15T12:13:46.994777</dc:date>
+    <dc:date>2026-11-15T13:20:23.263417</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   <g id="axes_1">
    <g id="_GeoPandasPolyCollection_1">
     <defs>
-     <path id="m0cf47c7f6d" d="M 42.707661 -181.44 
+     <path id="m745adb878a" d="M 42.707661 -181.44 
 L 42.715555 -182.726445 
 L 42.739235 -184.012697 
 L 42.778697 -185.298561 
@@ -1059,8 +1059,8 @@ L 44.249561 -182.707619
 z
 " style="stroke: #5b6770; stroke-width: 0.5"/>
     </defs>
-    <g clip-path="url(#p6a6af2aa8f)">
-     <use xlink:href="#m0cf47c7f6d" x="0" y="403.2" style="fill: #5b6770; stroke: #5b6770; stroke-width: 0.5"/>
+    <g clip-path="url(#p06d27d47b0)">
+     <use xlink:href="#m745adb878a" x="0" y="403.2" style="fill: #5b6770; stroke: #5b6770; stroke-width: 0.5"/>
     </g>
    </g>
    <g id="_GeoPandasPolyCollection_2">
@@ -1321,7 +1321,7 @@ L 168.070434 272.409549
 L 168.028105 271.72056 
 L 168.002697 271.030741 
 z
-" clip-path="url(#p6a6af2aa8f)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#p06d27d47b0)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 70.833217 270.340505 
 L 70.841688 269.650269 
 L 70.867095 268.960449 
@@ -1579,7 +1579,7 @@ L 70.909424 272.409549
 L 70.867095 271.72056 
 L 70.841688 271.030741 
 z
-" clip-path="url(#p6a6af2aa8f)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#p06d27d47b0)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 167.994227 173.179495 
 L 168.002697 172.489259 
 L 168.028105 171.79944 
@@ -1837,7 +1837,7 @@ L 168.070434 175.248539
 L 168.028105 174.559551 
 L 168.002697 173.869731 
 z
-" clip-path="url(#p6a6af2aa8f)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#p06d27d47b0)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 70.833217 173.179495 
 L 70.841688 172.489259 
 L 70.867095 171.79944 
@@ -2095,7 +2095,7 @@ L 70.909424 175.248539
 L 70.867095 174.559551 
 L 70.841688 173.869731 
 z
-" clip-path="url(#p6a6af2aa8f)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#p06d27d47b0)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 202.767641 221.76 
 L 202.771029 221.483906 
 L 202.781192 221.207978 
@@ -2353,7 +2353,7 @@ L 202.798123 222.587618
 L 202.781192 222.312022 
 L 202.771029 222.036094 
 z
-" clip-path="url(#p6a6af2aa8f)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#p06d27d47b0)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 103.049762 279.332144 
 L 103.05315 279.05605 
 L 103.063314 278.780122 
@@ -2611,7 +2611,7 @@ L 103.080245 280.159762
 L 103.063314 279.884166 
 L 103.05315 279.608238 
 z
-" clip-path="url(#p6a6af2aa8f)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#p06d27d47b0)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 103.049762 164.187856 
 L 103.05315 163.911762 
 L 103.063314 163.635834 
@@ -2869,12 +2869,12 @@ L 103.080245 165.015474
 L 103.063314 164.739878 
 L 103.05315 164.46395 
 z
-" clip-path="url(#p6a6af2aa8f)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#p06d27d47b0)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
    </g>
    <g id="line2d_1">
     <path d="M 19.190606 93.411329 
 L 70.32798 93.411329 
-" clip-path="url(#p6a6af2aa8f)" style="fill: none; stroke: #1f2a33; stroke-width: 2.5"/>
+" clip-path="url(#p06d27d47b0)" style="fill: none; stroke: #1f2a33; stroke-width: 2.5"/>
    </g>
    <g id="text_1">
     <!-- MON -->
@@ -3804,7 +3804,7 @@ z
   <g id="axes_2">
    <g id="_GeoPandasPolyCollection_3">
     <defs>
-     <path id="ma51aa07b7f" d="M 309.944825 -181.44 
+     <path id="m4d2541557e" d="M 309.944825 -181.44 
 L 309.954105 -182.952282 
 L 309.981941 -184.464337 
 L 310.028331 -185.975936 
@@ -4832,21 +4832,21 @@ L 315.067457 -182.889529
 z
 " style="stroke: #5b6770; stroke-width: 0.5"/>
     </defs>
-    <g clip-path="url(#p54e4bd0ef3)">
-     <use xlink:href="#ma51aa07b7f" x="0" y="403.2" style="fill: #5b6770; stroke: #5b6770; stroke-width: 0.5"/>
+    <g clip-path="url(#p40e3035d99)">
+     <use xlink:href="#m4d2541557e" x="0" y="403.2" style="fill: #5b6770; stroke: #5b6770; stroke-width: 0.5"/>
     </g>
    </g>
    <g id="_GeoPandasPolyCollection_4">
     <defs>
-     <path id="mab9aa2147a" d="M 351.359961 -99.620202 
+     <path id="m07894e9883" d="M 351.359961 -99.620202 
 L 351.359961 -263.259798 
 L 514.999557 -263.259798 
 L 514.999557 -99.620202 
 z
 " style="stroke: #1f2a33; stroke-width: 0.8"/>
     </defs>
-    <g clip-path="url(#p54e4bd0ef3)">
-     <use xlink:href="#mab9aa2147a" x="0" y="403.2" style="fill: #dce9f5; stroke: #1f2a33; stroke-width: 0.8"/>
+    <g clip-path="url(#p40e3035d99)">
+     <use xlink:href="#m07894e9883" x="0" y="403.2" style="fill: #dce9f5; stroke: #1f2a33; stroke-width: 0.8"/>
     </g>
    </g>
    <g id="_GeoPandasPolyCollection_5">
@@ -4855,49 +4855,49 @@ L 494.946904 225.932428
 L 520.00592 231.012142 
 L 516.754903 247.049912 
 z
-" clip-path="url(#p54e4bd0ef3)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#p40e3035d99)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 460.266142 277.427919 
 L 473.905374 268.38632 
 L 488.032873 289.69762 
 L 474.393642 298.739219 
 z
-" clip-path="url(#p54e4bd0ef3)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#p40e3035d99)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 407.889847 305.335144 
 L 412.969561 280.276128 
 L 429.007331 283.527145 
 L 423.927617 308.586161 
 z
-" clip-path="url(#p54e4bd0ef3)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#p40e3035d99)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 356.20054 262.973882 
 L 377.51184 248.846383 
 L 386.553439 262.485615 
 L 365.24214 276.613114 
 z
-" clip-path="url(#p54e4bd0ef3)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#p40e3035d99)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 346.353598 212.507858 
 L 349.604615 196.470088 
 L 374.663631 201.549802 
 L 371.412614 217.587572 
 z
-" clip-path="url(#p54e4bd0ef3)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#p40e3035d99)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 378.326645 153.82238 
 L 391.965877 144.780781 
 L 406.093376 166.092081 
 L 392.454144 175.13368 
 z
-" clip-path="url(#p54e4bd0ef3)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#p40e3035d99)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 437.352187 159.992855 
 L 442.431901 134.933839 
 L 458.469671 138.184856 
 L 453.389957 163.243872 
 z
-" clip-path="url(#p54e4bd0ef3)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#p40e3035d99)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 479.806079 181.034385 
 L 501.117379 166.906886 
 L 510.158978 180.546118 
 L 488.847678 194.673617 
 z
-" clip-path="url(#p54e4bd0ef3)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#p40e3035d99)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 388.17887 221.76 
 L 388.183183 221.408607 
 L 388.196118 221.057426 
@@ -5155,7 +5155,7 @@ L 388.217667 222.813332
 L 388.196118 222.462574 
 L 388.183183 222.111393 
 z
-" clip-path="url(#p54e4bd0ef3)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#p40e3035d99)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 449.543719 221.76 
 L 449.548031 221.408607 
 L 449.560966 221.057426 
@@ -5413,7 +5413,7 @@ L 449.582515 222.813332
 L 449.560966 222.462574 
 L 449.548031 222.111393 
 z
-" clip-path="url(#p54e4bd0ef3)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#p40e3035d99)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
    </g>
    <g id="text_7">
     <!-- Lower Equipment Bay -->
@@ -6047,7 +6047,7 @@ z
   <g id="axes_3">
    <g id="_GeoPandasPolyCollection_6">
     <defs>
-     <path id="ma233a6f126" d="M 621.205131 -181.44 
+     <path id="m509fa21ba7" d="M 621.205131 -181.44 
 L 621.212482 -182.637888 
 L 621.234531 -183.835595 
 L 621.271277 -185.032941 
@@ -7075,8 +7075,8 @@ L 626.325834 -182.575134
 z
 " style="stroke: #5b6770; stroke-width: 0.5"/>
     </defs>
-    <g clip-path="url(#p4c45b69303)">
-     <use xlink:href="#ma233a6f126" x="0" y="403.2" style="fill: #5b6770; stroke: #5b6770; stroke-width: 0.5"/>
+    <g clip-path="url(#pee98bd16da)">
+     <use xlink:href="#m509fa21ba7" x="0" y="403.2" style="fill: #5b6770; stroke: #5b6770; stroke-width: 0.5"/>
     </g>
    </g>
    <g id="_GeoPandasPolyCollection_7">
@@ -7099,13 +7099,13 @@ L 657.254674 152.724546
 L 729.047716 152.724546 
 L 729.047716 260.11303 
 z
-" clip-path="url(#p4c45b69303)" style="fill: #dce9f5; stroke: #1f2a33; stroke-width: 0.8"/>
+" clip-path="url(#pee98bd16da)" style="fill: #dce9f5; stroke: #1f2a33; stroke-width: 0.8"/>
     <path d="M 726.490847 275.454242 
 L 726.490847 168.065758 
 L 767.400746 168.065758 
 L 767.400746 275.454242 
 z
-" clip-path="url(#p4c45b69303)" style="fill: #cfe8d6; stroke: #1f2a33; stroke-width: 0.8"/>
+" clip-path="url(#pee98bd16da)" style="fill: #cfe8d6; stroke: #1f2a33; stroke-width: 0.8"/>
     <path d="M 773.792918 240.936515 
 L 773.792918 192.35601 
 L 806.522077 192.35601 
@@ -7114,7 +7114,7 @@ L 807.002358 193.824035
 L 807.03221 193.920315 
 L 807.03221 240.936515 
 z
-" clip-path="url(#p4c45b69303)" style="fill: #dce9f5; stroke: #1f2a33; stroke-width: 0.8"/>
+" clip-path="url(#pee98bd16da)" style="fill: #dce9f5; stroke: #1f2a33; stroke-width: 0.8"/>
     <path d="M 773.792918 289.51702 
 L 773.792918 251.16399 
 L 801.918473 251.16399 
@@ -7150,13 +7150,13 @@ L 783.421002 287.966083
 L 782.603688 288.753849 
 L 781.792191 289.51702 
 z
-" clip-path="url(#p4c45b69303)" style="fill: #dce9f5; stroke: #1f2a33; stroke-width: 0.8"/>
+" clip-path="url(#pee98bd16da)" style="fill: #dce9f5; stroke: #1f2a33; stroke-width: 0.8"/>
     <path d="M 705.524524 305.625293 
 L 705.524524 270.851879 
 L 740.297938 270.851879 
 L 740.297938 305.625293 
 z
-" clip-path="url(#p4c45b69303)" style="fill: #dce9f5; stroke: #1f2a33; stroke-width: 0.8"/>
+" clip-path="url(#pee98bd16da)" style="fill: #dce9f5; stroke: #1f2a33; stroke-width: 0.8"/>
     <path d="M 643.50018 168.065758 
 L 643.851838 167.572894 
 L 644.522442 166.656997 
@@ -7195,7 +7195,7 @@ L 671.136451 142.497071
 L 736.718322 142.497071 
 L 736.718322 168.065758 
 z
-" clip-path="url(#p4c45b69303)" style="fill: #dce9f5; stroke: #1f2a33; stroke-width: 0.8"/>
+" clip-path="url(#pee98bd16da)" style="fill: #dce9f5; stroke: #1f2a33; stroke-width: 0.8"/>
    </g>
    <g id="_GeoPandasPolyCollection_8">
     <path d="M 731.604584 219.203131 
@@ -7203,13 +7203,13 @@ L 731.604584 173.179495
 L 762.287008 173.179495 
 L 762.287008 219.203131 
 z
-" clip-path="url(#p4c45b69303)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#pee98bd16da)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 731.604584 270.340505 
 L 731.604584 224.316869 
 L 762.287008 224.316869 
 L 762.287008 270.340505 
 z
-" clip-path="url(#p4c45b69303)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#pee98bd16da)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
    </g>
    <g id="text_10">
     <!-- Crew Seats -->
@@ -7851,7 +7851,7 @@ z
   <g id="axes_4">
    <g id="_GeoPandasPolyCollection_9">
     <defs>
-     <path id="m8e9f8c5d9b" d="M 930.757449 -181.44 
+     <path id="m15c5fa04e9" d="M 930.757449 -181.44 
 L 930.762999 -182.344453 
 L 930.779647 -183.248769 
 L 930.807392 -184.152813 
@@ -8879,21 +8879,21 @@ L 935.876351 -182.281699
 z
 " style="stroke: #5b6770; stroke-width: 0.5"/>
     </defs>
-    <g clip-path="url(#pc3e3ce0847)">
-     <use xlink:href="#m8e9f8c5d9b" x="0" y="403.2" style="fill: #5b6770; stroke: #5b6770; stroke-width: 0.5"/>
+    <g clip-path="url(#pf9c2f79fba)">
+     <use xlink:href="#m15c5fa04e9" x="0" y="403.2" style="fill: #5b6770; stroke: #5b6770; stroke-width: 0.5"/>
     </g>
    </g>
    <g id="_GeoPandasPolyCollection_10">
     <defs>
-     <path id="m54903ba776" d="M 953.323349 -137.973232 
+     <path id="m16053c62f9" d="M 953.323349 -137.973232 
 L 953.323349 -224.906768 
 L 1055.598096 -224.906768 
 L 1055.598096 -137.973232 
 z
 " style="stroke: #1f2a33; stroke-width: 0.8"/>
     </defs>
-    <g clip-path="url(#pc3e3ce0847)">
-     <use xlink:href="#m54903ba776" x="0" y="403.2" style="fill: #dce9f5; stroke: #1f2a33; stroke-width: 0.8"/>
+    <g clip-path="url(#pf9c2f79fba)">
+     <use xlink:href="#m16053c62f9" x="0" y="403.2" style="fill: #dce9f5; stroke: #1f2a33; stroke-width: 0.8"/>
     </g>
    </g>
    <g id="_GeoPandasPolyCollection_11">
@@ -8910,19 +8910,19 @@ L 951.440294 265.272741
 L 950.910318 264.618823 
 L 950.388407 263.95845 
 z
-" clip-path="url(#pc3e3ce0847)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#pf9c2f79fba)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 980.937531 265.738141 
 L 980.937531 177.781859 
 L 997.301491 177.781859 
 L 997.301491 265.738141 
 z
-" clip-path="url(#pc3e3ce0847)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#pf9c2f79fba)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 1011.619955 265.738141 
 L 1011.619955 177.781859 
 L 1027.983915 177.781859 
 L 1027.983915 265.738141 
 z
-" clip-path="url(#pc3e3ce0847)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#pf9c2f79fba)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
     <path d="M 1042.302379 265.738141 
 L 1042.302379 177.781859 
 L 1057.094404 177.781859 
@@ -8936,7 +8936,7 @@ L 1058.011127 264.618823
 L 1057.481151 265.272741 
 L 1057.094404 265.738141 
 z
-" clip-path="url(#pc3e3ce0847)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
+" clip-path="url(#pf9c2f79fba)" style="fill: #b9bec4; fill-opacity: 0.9; stroke: #ffffff; stroke-opacity: 0.9; stroke-width: 0.8"/>
    </g>
    <g id="text_18">
     <!-- Sleeping Area -->
@@ -9848,16 +9848,16 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p6a6af2aa8f">
+  <clipPath id="p06d27d47b0">
    <rect x="11.52" y="85.740723" width="272.038554" height="272.038554"/>
   </clipPath>
-  <clipPath id="p54e4bd0ef3">
+  <clipPath id="p40e3035d99">
    <rect x="297.160482" y="85.740723" width="272.038554" height="272.038554"/>
   </clipPath>
-  <clipPath id="p4c45b69303">
+  <clipPath id="pee98bd16da">
    <rect x="582.800964" y="85.740723" width="272.038554" height="272.038554"/>
   </clipPath>
-  <clipPath id="pc3e3ce0847">
+  <clipPath id="pf9c2f79fba">
    <rect x="868.441446" y="85.740723" width="272.038554" height="272.038554"/>
   </clipPath>
  </defs>

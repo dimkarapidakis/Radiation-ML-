@@ -1,8 +1,15 @@
 astronaut,day,biomarker,value,unit,base_mean,z,priority
-Astronaut 2,13,body_temperature,36.75,°C,36.55,3.4,medical team
-Astronaut 5,10,body_temperature,37.33,°C,36.43,8.9,medical team
-Astronaut 5,11,body_temperature,37.55,°C,36.43,11.1,medical team
-Astronaut 5,14,body_temperature,35.98,°C,36.43,-4.4,medical team
-Astronaut 5,10,heart_rate,77.62,bpm,60.27,9.1,medical team
-Astronaut 5,11,heart_rate,72.71,bpm,60.27,6.6,medical team
-Astronaut 5,11,systolic_bp,119.83,mmHg,110.17,4.5,medical team
+Alex Morgan,3,heart_rate,77.5,bpm,71.21,4.6,medical team
+Alex Morgan,3,lymphocyte_count,1.57,10^9/L,1.87,-7.5,medical team
+Alex Morgan,3,wbc_count,5.73,10^9/L,6.06,-6.2,medical team
+Elena Rossi,3,heart_rate,74.0,bpm,68.21,3.8,medical team
+Elena Rossi,3,lymphocyte_count,1.63,10^9/L,1.95,-8.0,medical team
+Elena Rossi,3,wbc_count,5.77,10^9/L,6.1,-6.2,medical team
+James Wilson,3,sleep_duration,6.6,hours,7.56,-3.5,medical team
+Lucas Meyer,3,heart_rate,82.5,bpm,75.93,6.1,medical team
+Lucas Meyer,3,lymphocyte_count,1.45,10^9/L,1.75,-5.0,medical team
+Lucas Meyer,3,sleep_duration,4.7,hours,6.91,-9.2,medical team
+Lucas Meyer,4,sleep_duration,5.9,hours,6.91,-4.2,medical team
+Lucas Meyer,3,wbc_count,4.98,10^9/L,5.47,-4.5,medical team
+Sarah Chen,3,heart_rate,87.5,bpm,79.57,4.2,medical team
+Sarah Chen,3,lymphocyte_count,1.67,10^9/L,2.1,-7.9,medical team
